@@ -1,0 +1,43 @@
+.header{
+ background-color: goldenrod;
+ color: white;
+ text-align: center;
+padding: 3vh 0;}
+
+.header img{width: 200px;}
+
+.header h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-shadow: rgba(30,23,242) 2px 2px 3px; /*Yazıya Gölge Vermek İçin Kullanılır */}
+
+.navbar{
+  margin-bottom: 2vh;
+  background-color: black;}
+
+.navbar a{
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 10px;}
+
+.navbar a:hover{
+  background-color: white;
+  color: black;
+  transition: 1s;} /*Üzerine Gelince Yapılacak Değişikler */
+
+.urun{
+  display: flex;
+  border: 1px solid lightgray;
+  margin-bottom: 2vh;}
+
+.urun .yazi{padding-left: 4vw;}
+.urun .yazi h3{color: darkred;}
+
+.footer{background-color: black;
+color: #aaa;
+padding: 4vh;
+text-align: center;
+font-size: 0.8em;}
+
+.footer a{text-decoration: none;}
